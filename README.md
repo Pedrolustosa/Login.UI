@@ -1,27 +1,58 @@
-# LoginUI
+# Angular Login.UI Project
+[![Angular](https://img.shields.io/badge/Angular-16.2.14-red)](https://angular.dev/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-blueviolet)](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+[![MDB Angular](https://img.shields.io/badge/MDB_Angular-5.2.0-yellow)](https://mdbootstrap.com/docs/angular/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+This project demonstrates a simple authentication system using Angular, integrated with a .NET Core backend utilizing JWT (JSON Web Tokens) for secure authentication.
 
-## Development server
+## Technologies Used
+- **Angular**: Frontend framework for building single-page applications.
+- **Bootstrap 5.3.3**: Frontend component library for responsive and mobile-first design.
+- **Angular Material Design Bootstrap (MDB)**: Angular components based on Material Design and Bootstrap for UI elements.
+- **JWT (JSON Web Tokens)**: Secure authentication mechanism used between Angular frontend and .NET Core backend.
+- **TypeScript**: Programming language used for Angular development.
+- **HTML/CSS**: Markup and styling languages for structuring and presenting the frontend UI.
+- **Visual Studio Code**: Integrated development environment (IDE) for Angular and TypeScript development.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features Implemented
+- **Login Component**: Provides a form for users to enter their credentials and authenticate.
+- **Authentication Service**: Manages user authentication using JWT tokens.
+- **Navbar Component**: Displays a navigation bar with a logout button after successful login.
+- **Responsive Design**: Ensured the application is responsive using Bootstrap's grid system.
 
-## Code scaffolding
+## Setup Instructions
+- To run this project locally:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Clone the repository**:
+```bash
+  git clone https://github.com/Pedrolustosa/Login.UI
+```
 
-## Build
+```bash
+  cd Login.UI
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. **Install dependencies**:
+```bash
+  npm install
+```
 
-## Running unit tests
+4. **Run the Angular development server**:
+```bash
+  ng serve
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+5. **Open the application**:
+- Navigate to `http://localhost:4200/` in your web browser.
 
-## Running end-to-end tests
+## Usage
+- Access the login page (`/login`) to authenticate with valid credentials.
+- After successful login, navigate to the home page (`/home`) where you can view authenticated content.
+- Use the logout button in the navbar to securely log out of the application.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contributing
+Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull request.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

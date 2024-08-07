@@ -1,5 +1,5 @@
 # Angular Login.UI Project
-[![Angular](https://img.shields.io/badge/Angular-16.2.14-red)](https://angular.dev/)
+[![Angular](https://img.shields.io/badge/Angular-18.1.4-red)](https://angular.dev/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-blueviolet)](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 [![MDB Angular](https://img.shields.io/badge/MDB_Angular-5.2.0-yellow)](https://mdbootstrap.com/docs/angular/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
